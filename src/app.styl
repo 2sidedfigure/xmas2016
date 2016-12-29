@@ -1,0 +1,279 @@
+$darkGreen = #01280d
+$lightGreen = lighten($darkGreen, 2%)
+$creme = #fffbf4
+
+$pointsettia(color)
+    $dataurl = s("data:image/svg+xml;utf8,<svg width='513px' height='509px' viewBox='0 0 513 509' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path fill='%s' transform='translate(256.763208, 254.500632) rotate(-16.000000) translate(-256.763208, -254.500632) ' d='M139.371794,298.267136 C124.409189,299.097088 110.918657,299.097088 102.194558,299.097088 C70.5753067,299.097088 74.2231383,281.309507 -11,259.92486 C74.2231383,237.803379 70.5753067,220.752631 102.194558,220.752631 C107.7371,220.752631 115.203487,220.731654 123.748954,220.909878 C115.76196,211.270502 109.50429,196.832614 74.30601,166.142195 C136.920806,179.964863 142.439917,168.683379 161.760367,177.485516 C154.99692,166.853996 149.42057,157.195474 145.637124,150.642355 C129.827499,123.25928 147.055912,117.524604 122.963991,33.0268775 C184.733324,95.7715401 197.675789,84.0870511 213.485415,111.470126 C215.654228,115.22662 218.423318,119.997131 221.498831,125.483756 C226.293331,114.503988 234.61979,100.036448 242.631637,59.1473435 C261.832422,119.85522 274.321495,119.432667 276.490725,140.114574 C283.593701,125.884682 290.810947,113.384044 295.395568,105.443248 C311.205193,78.0601736 324.785775,90.1130793 385.916992,27 C362.463187,111.866143 379.053484,117.232402 363.243858,144.615477 C360.844255,148.771712 357.737062,154.184982 354.072704,160.308866 C365.976342,158.975169 382.674956,158.938611 422.051686,145.446295 C384.377429,186.634374 384.811653,199.864203 374.154623,210.734128 C389.117227,209.904175 402.607759,209.904175 411.331859,209.904175 C442.95111,209.904175 439.303278,227.691757 524.526416,249.076404 C439.303278,271.197884 442.95111,288.248633 411.331859,288.248633 C405.789317,288.248633 398.322929,288.269609 389.777462,288.091386 C397.764457,297.730762 404.022126,312.16865 439.220406,342.859068 C376.60561,329.036401 371.0865,340.317885 351.76605,331.515748 C358.529497,342.147268 364.105847,351.80579 367.889292,358.358909 C383.698918,385.741984 366.470504,391.47666 390.562426,475.974386 C328.793093,413.229724 315.850627,424.914213 300.041002,397.531138 C297.872189,393.774643 295.103098,389.004133 292.027586,383.517508 C287.233085,394.497276 278.906627,408.964815 270.89478,449.85392 C251.693994,389.146044 239.204921,389.568597 237.035691,368.88669 C229.932716,383.116582 222.715469,395.61722 218.130849,403.558015 C202.321223,430.94109 188.740641,418.888184 127.609424,482.001264 C151.06323,397.135121 134.472933,391.768862 150.282558,364.385787 C152.682162,360.229552 155.789354,354.816282 159.453712,348.692397 C147.550074,350.026095 130.85146,350.062653 91.47473,363.554969 C129.148987,322.36689 128.714764,309.137061 139.371794,298.267136 Z M227.866364,256.661072 C227.829387,256.363948 227.786746,256.069281 227.738518,255.777052 C231.121562,254.131948 233.831328,251.623717 235.647289,248.059694 C236.641282,246.108872 237.220703,244.129799 237.432554,242.132804 C239.245525,241.631811 241.030643,240.886176 242.781983,239.875039 C243.504352,239.457979 244.190212,239.013511 244.840635,238.542718 C247.142639,239.514311 249.643042,239.97411 252.359641,239.831739 C257.600074,239.5571 261.790291,237.138868 265.130734,233.208591 C265.630615,233.550651 266.150296,233.877778 266.690226,234.189506 C267.012789,234.375738 267.336447,234.552934 267.661161,234.721223 C267.635927,238.036143 268.496227,241.222489 270.438412,244.213192 C273.859865,249.481767 279.189208,251.910918 285.660053,252.340191 C285.697029,252.637316 285.73967,252.931983 285.787898,253.224213 C282.404858,254.869312 279.695089,257.377544 277.879128,260.94157 C276.885134,262.892392 276.305714,264.871464 276.093863,266.86846 C274.280892,267.369453 272.495774,268.115088 270.744433,269.126225 C270.022065,269.543284 269.336204,269.987753 268.685781,270.458546 C266.383778,269.486953 263.883375,269.027154 261.166775,269.169525 C255.926343,269.444164 251.736125,271.862396 248.395683,275.792673 C247.895802,275.450613 247.376121,275.123486 246.836191,274.811758 C246.513627,274.625525 246.18997,274.44833 245.865255,274.28004 C245.89049,270.965121 245.030189,267.778774 243.088004,264.788072 C239.666552,259.519497 234.337209,257.090346 227.866364,256.661072 Z' /></svg>", color)
+    url($dataurl)
+
+// From https://raw.githubusercontent.com/topcoat/icons/master/svg/github.svg,
+// but with an added fill option
+$github(color)
+    $dataurl = s("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='42px' height='42px' viewBox='0 0 42 42'><path fill='%s' d='M21,1C9.954,1,1,9.954,1,21s8.954,20,20,20s20-8.954,20-20S32.046,1,21,1z M21,3.178c9.843,0,17.822,7.979,17.822,17.822 S30.843,38.822,21,38.822S3.178,30.843,3.178,21S11.157,3.178,21,3.178z M12.154,8.397c-0.507,1.476-0.684,3.077-0.229,4.476 c-0.549,0.608-0.975,1.308-1.279,2.1c-0.812,2.566-0.614,5.848,1.164,7.832c0.625,0.686,1.473,1.248,2.539,1.689 s2.438,0.723,4.113,0.844c-1.125,0.526-1.918,0.848-2.194,2.01c-1.255,0.838-2.78,0.639-3.887-0.272 c-0.874-0.64-1.271-1.771-2.239-2.192c-0.061-0.062-0.251-0.105-0.57-0.137C9.252,24.716,9,24.807,8.817,25.02 c-0.091,0.09-0.085,0.188,0.022,0.295c0.732,0.597,1.439,1.229,1.853,1.986c0.396,0.822,0.942,1.318,1.37,1.699 c1.184,0.8,2.735,1.086,4.125,0.578c-0.162,0.979,0.173,2.74-0.148,3.613c-0.122,0.244-0.297,0.457-0.525,0.641 c-0.203,0.199-0.835,0.447-0.707,0.752c0.061,0.137,0.273,0.221,0.639,0.252c0.806-0.021,1.719-0.348,2.191-0.982 C17.805,33.625,18,33.328,18,32.963v-3.742c0-0.427,0.156-0.729,0.339-0.914c0.183-0.182,0.349-0.322,0.661-0.365v4.933 c0,0.426-0.523,1.614-0.586,1.735c-0.139,0.236-0.45,0.451-0.456,0.729c0,0.093,0.033,0.146,0.14,0.159 c0.801-0.034,1.458-0.505,1.784-1.165c0.415-0.63,0.509-1.005,0.618-1.733V28h1v4.6c0,0.608-0.1,1.187,0.175,1.732 c0.274,0.549,1.114,0.9,1.753,1.053c0.336,0.092,0.504,0.127,0.625,0.112c0.122-0.015,0.146-0.067,0.131-0.159 c-0.072-0.275-0.463-0.513-0.625-0.729C23.346,34.334,23,33.756,23,32.873v-4.932c0.328,0.074,0.463,0.184,0.662,0.365 C23.859,28.49,24,28.794,24,29.221v3.742c0,0.365,0.264,0.662,0.432,0.891c0.51,0.648,1.367,0.978,2.17,0.982 c0.365-0.031,0.623-0.115,0.685-0.252s0.038-0.25-0.114-0.342s-0.331-0.229-0.561-0.41c-0.229-0.182-0.396-0.396-0.52-0.641 c-0.137-1.569-0.001-3.252-0.111-4.84c-0.219-1.732-0.885-2.304-2.215-2.968c1.586-0.12,2.889-0.411,3.908-0.868 c3.053-1.482,3.896-3.775,3.91-6.849c-0.049-1.979-0.619-3.703-1.922-5.025c0.184-0.699,0.236-1.428,0.161-2.189 c-0.076-0.761-0.237-1.447-0.481-2.056c-1.127,0.062-2.072,0.288-2.834,0.684s-1.311,0.731-1.646,1.006 c-2.699-0.613-5.59-0.616-8.18,0.091C15.355,9.094,13.714,8.49,12.154,8.397z'/></svg>", color)
+    url($dataurl)
+
+// From google fonts, https://fonts.google.com/specimen/Amatic+SC
+@font-face
+    font-family 'Amatic SC'
+    font-weight normal
+    src url('./static/fonts/AmaticSC-Regular.ttf')
+
+@font-face
+    font-family 'Amatic SC'
+    font-weight bold
+    src url('./static/fonts/AmaticSC-Bold.ttf')
+
+*
+    box-sizing border-box
+
+html
+    background-color $darkGreen
+    background-image linear-gradient( \
+            0deg, \
+            $darkGreen, \
+            $darkGreen 25%, \
+            $lightGreen 25%, \
+            $lightGreen 50%, \
+            $darkGreen 50%, \
+            $darkGreen 75%, \
+            $lightGreen 75%, \
+            $lightGreen \
+        )
+    background-size 20%
+    min-height 100%
+
+body
+    font-size 16px
+    margin 0
+    position absolute
+    top 0
+    right 0
+    bottom 0
+    left 0
+    display flex
+    justify-content center
+    align-items center
+    perspective 1000px
+
+nav
+    font-family 'Georgia', 'Times', serif
+    position fixed
+    bottom 1em
+    left 1em
+    font-size .75em
+    color #fff
+    opacity .15
+    transition opacity .25s
+    cursor default
+
+    &:hover
+        opacity .35
+
+    ul
+        list-style-type none
+        margin 0
+        padding 0
+        display inline
+
+        li
+            display inline
+
+    &#past
+        right 1em
+        left auto
+
+        strong
+            font-weight normal
+
+            &::after
+                content ': '
+
+        a
+            &,
+            &:visited
+                    display inline-block
+                    width 1.75em
+                    height 1.75em
+                    border-radius 100%
+                    font-weight bold
+                    color #fff
+                    text-align center
+                    font-size .75em
+                    text-decoration none
+                    vertical-align middle
+                    line-height 1.5
+                    margin-left .25em
+                    border 1px solid #fff
+
+    #github
+        display inline-block
+        background-image $github(#fff)
+        background-size 1.25em
+        background-repeat no-repeat
+        width 1.25em
+        padding-top 1.25em
+        height 0
+        overflow hidden
+
+@keyframes shake
+    0%, 21%
+        transform rotateZ(-3deg)
+    1%, 5%, 9%, 13%, 17%
+        transform rotateX(-2deg) rotateY(1deg) rotateZ(-3deg)
+    2%, 6%, 10%, 14%, 18%
+        transform rotateX(3deg) rotateY(-2deg) rotateZ(-3deg)
+    3%, 7%, 11%, 15%, 19%
+        transform rotateX(-1deg) rotateY(2deg) rotateZ(-3deg)
+    4%, 8%, 12%, 16%, 20%
+        transform rotateX(2deg) rotateY(-3deg) rotateZ(-3deg)
+
+#card
+    font-family 'Amatic SC', cursive
+    box-shadow 0 0 .25em -0.06125em rgba(0, 0, 0, 0.95)
+    transform-style preserve-3d
+    transform rotateZ(-3deg)
+    transition transform 1s
+    width 40em
+    height 30em
+    cursor pointer
+    animation-name none
+
+    &.shake
+        animation-name shake
+        animation-duration 4.5s
+        animation-delay 2s
+        animation-iteration-count infinite
+
+    &.flipped
+        transform rotateZ(2deg) rotateX(180deg)
+
+    > *
+        position absolute
+        top 0
+        left 0
+        width 100%
+        height 100%
+        padding 1em
+        -webkit-backface-visibility hidden
+        backface-visibility hidden
+        border 0.036125em solid $creme
+        background-color $creme
+
+    .front
+        color $lightGreen
+        background-image \
+            $pointsettia(desaturate(lighten($darkGreen, 90%), 75%)), \
+            $pointsettia(desaturate(lighten($lightGreen, 92%), 65%)), \
+            $pointsettia(desaturate(lighten($lightGreen, 92%), 65%))
+        background-position 110% 110%, 60% 102%, 2% 40%
+        background-size 50%, 20%, 17%
+        background-repeat no-repeat
+        text-align center
+
+        h1
+            font-size 7.5em
+            margin 0 0 .5em
+            line-height 1
+            letter-spacing -.0375em
+            color #f33
+
+        p
+            font-size 4em
+            margin 0
+            line-height 1
+
+        @keyframes fade-in
+            from
+                opacity 0
+            to
+                opacity .35
+
+        em
+            position absolute
+            bottom .5em
+            width 100%
+            left 0
+            font-size 2.5em
+            text-align center
+            font-style normal
+            opacity 0
+            animation-name fade-in
+            animation-delay 5s
+            animation-duration .5s
+            animation-fill-mode forwards
+
+            &.hide
+                animation-name none
+
+    .back
+        transform rotateX(180deg)
+
+        canvas
+            width 100%
+            height 100%
+
+        strong
+            position absolute
+            top .625em
+            right .875em
+            color $creme
+            font-size 2em
+
+            &:before
+                content '\2661'
+                font-size .75em
+                margin-right .25em
+                color #f33
+
+// 280x210
+#card
+    font-size .43625rem
+
+// 320x240
+@media (orientation: portrait) and (min-width: 325px), \
+       (orientation: landscape) and (min-height: 325px)
+    #card
+        font-size .5em
+
+// 400x300
+@media (orientation: portrait) and (min-width: 380px), \
+       (orientation: landscape) and (min-height: 380px)
+    #card
+        font-size .625em
+
+// 480x360
+@media (orientation: portrait) and (min-width: 500px), \
+       (orientation: landscape) and (min-height: 440px)
+    #card
+        font-size .75em
+
+// 560x420
+@media (orientation: portrait) and (min-width: 580px), \
+       (orientation: landscape) and (min-height: 500px)
+    #card
+        font-size .875em
+
+// 640x480
+@media (orientation: portrait) and (min-width: 680px), \
+       (orientation: landscape) and (min-height: 570px)
+    #card
+        font-size 1em
+
+// 800x600
+@media (orientation: portrait) and (min-width: 900px), \
+       (orientation: landscape) and (min-height: 700px)
+    nav
+        font-size 1em
+        bottom .75em
+
+    #card
+        font-size 1.25em
+
+// 960x720
+@media (orientation: portrait) and (min-width: 1000px), \
+       (orientation: landscape) and (min-height: 1000px)
+    nav
+        font-size 1em
+
+    #card
+        font-size 1.5em

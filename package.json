@@ -1,0 +1,38 @@
+{
+  "name": "xmas2016",
+  "version": "1.0.0",
+  "description": "Ettipios West holiday card, 2016",
+  "main": "dist/lights.js",
+  "scripts": {
+    "build": "npm run clean && mkdir dist && cp src/static/index.html dist && webpack",
+    "clean": "rm -rf dist",
+    "dev": "node server.js",
+    "lint": "eslint ./src server.js webpack.config.js"
+  },
+  "author": "± ryan <ryan@2-si.de>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "image-webpack-loader": "^3.1.0",
+    "opn": "^4.0.2",
+    "postcss-loader": "^1.2.1",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
+    "webpack": "^2.2.0-rc.2",
+    "webpack-dev-server": "^2.2.0-rc.0",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
